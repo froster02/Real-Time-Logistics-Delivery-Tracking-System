@@ -59,6 +59,93 @@ User App (React) ---> API Gateway ---> Microservices
 | **Phase 4: Deployment & Testing**  | 2 Weeks                          |
 | **Total Estimated Time**           | **10-12 Weeks (\~2.5-3 months)** |
 
+Logistics & Delivery Tracking System is covering a wide range of technologies across different domains. Here’s a comprehensive list of all the tech stacks it touches:
+
+⸻
+
+💻 Backend (Java & Spring Boot)
+
+✅ Java 17+ → Primary backend language\
+✅ Spring Boot → Microservices framework\
+✅ Spring Security → Authentication & JWT-based security\
+✅ Spring Data JPA → ORM for MySQL\
+✅ Spring WebFlux → Reactive programming (optional for real-time updates)\
+✅ Spring Cloud Gateway → API Gateway for routing & security\
+✅ Spring Kafka → Event-driven architecture\
+
+⸻
+
+🌐 Frontend (React.js)
+
+✅ React.js → UI development\
+✅ Redux / Zustand → State management\
+✅ Axios / Fetch API → API calls\
+✅ TailwindCSS / Material-UI → Styling and UI components\
+✅ WebSockets / Polling → Real-time tracking\
+✅ React Router → Navigation\
+
+⸻
+
+📡 Messaging & Event-Driven Architecture
+
+✅ Apache Kafka → Event streaming & communication between microservices\
+✅ Kafka Producers & Consumers → Real-time order updates, notifications\
+
+⸻
+
+🗄️ Databases & Storage
+
+✅ MySQL → Relational database for structured data (Users, Orders, Payments)\
+✅ MongoDB → NoSQL database for tracking logs & analytics\
+✅ Redis → In-memory caching for active orders & delivery status\
+✅ AWS S3 → Storage for delivery proof images (optional)\
+
+⸻
+
+☁️ Cloud & DevOps
+
+✅ AWS (EKS, EC2, S3, RDS, Lambda) → Deployment & scaling\
+✅ Docker → Containerization for all microservices\
+✅ Kubernetes → Orchestration & auto-scaling\
+✅ NGINX / AWS ALB → Load balancing\
+✅ GitHub Actions / Jenkins → CI/CD for automated deployments\
+
+⸻
+
+🔐 Security & Authentication
+
+✅ JWT (JSON Web Token) → Secure authentication\
+✅ OAuth2 → Third-party authentication & API security\
+✅ Rate Limiting & IP Blocking → Prevent DDoS attacks\
+✅ Data Encryption → Secure sensitive data\
+
+⸻
+
+📊 Monitoring & Logging
+
+✅ Kibana + ELK Stack → Log analysis & monitoring\
+✅ Prometheus + Grafana → Real-time performance tracking\
+✅ JMeter / k6 → Load testing\
+
+⸻
+
+💰 Payment Gateway (Optional)
+
+✅ Razorpay / Stripe API → Payment processing\
+✅ Webhook Integration → Payment status updates\
+
+⸻
+
+📡 API & Integration Tools
+
+✅ RESTful APIs → Core communication between frontend & backend\
+✅ GraphQL (Optional) → For efficient querying (if needed)\
+✅ Postman / Swagger → API documentation & testing\
+
+⸻
+
+💡 This project covers Backend + Frontend + DevOps + Security + Cloud + Event-Driven Architecture.
+
 ### **📌 Step-by-Step Development Plan**
 
 #### **🔹 Step 1: Requirement Analysis & System Design (Weeks 1-2)**
